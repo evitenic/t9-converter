@@ -29,11 +29,11 @@ def convert_text_to_t9(text: str) -> str:
             if character in letters:
                 position = letters.index(character) + 1
                 if key == '0':
-                    result.append(f"{key}")
+                    result.append(f"[{key}]")
                 else:
-                    result.append(f"{key}{position}")
+                    result.append(f"[{key},{position}]")
 
-    return ','.join(result)
+    return ';'.join(result)
 
 def read_file_and_convert(input_file: str) :
     """Read input file, convert to T9, and save to auto-named output file"""

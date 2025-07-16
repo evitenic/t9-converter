@@ -3,7 +3,7 @@
 A Python tool that converts text or files into T9 keypad sequences (like old mobile phone typing).
 
 ## ✨ Features
-- Convert text to T9 format (e.g., "hello" → `42,32,53,53,63`)
+- Convert text to T9 format (e.g., "hello" → `[4,2];[3,2];[5,3];[5,3];[6,3]`)
 - Process entire text files while preserving line breaks
 - Clean menu interface with error handling
 - Automatic output file naming
@@ -39,7 +39,7 @@ python t9_converter.py
 **Text Conversion:**
 ```
 Enter text: hello world
-T9 Result: 42,32,53,53,63,0,91,63,73,53,31
+T9 Result: [4,2];[3,2];[5,3];[5,3];[6,3];0;[9,1];[6,3];[7,3];[5,3];[3,1]
 ```
 
 **File Conversion:**
