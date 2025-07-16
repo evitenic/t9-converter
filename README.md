@@ -58,6 +58,6 @@ Pull requests are welcome! For major changes, please open an issue first.
 ## 📜 License
 [MIT](LICENSE)
 
-## TODO
+## 📝 TODO
 - Support for special characters
 - Support for number
